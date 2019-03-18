@@ -17,5 +17,3 @@ shrink_size() {
     dd if=/dev/zero of=/tmp/whitespace bs=1024 count="$count"
     rm /tmp/whitespace
 }
-
-main "$@"
